@@ -24,7 +24,6 @@ let ctrl = {
 			msg = req.body,
 			ret = {};
 
-		ret = dynamoDb.db.getTransformerList();
 		res.send(ret);
 	}
 
